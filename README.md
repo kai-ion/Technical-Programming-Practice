@@ -14,6 +14,8 @@
 
 [380. Insert Delete GetRandom O(1)](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0380.%20Insert%20Delete%20GetRandom%20O(1).md)
 
+[435. Non-overlapping Intervals](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0435.%20Non-overlapping%20Intervals.md)
+
 <br>
 
 ## Resources:
@@ -31,6 +33,9 @@
 
 #### LinkedList
 * [61. Rotate List](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0061.%20Rotate%20List.md)
+
+#### Intervals
+* [435. Non-overlapping Intervals](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0435.%20Non-overlapping%20Intervals.md)
 
 #### BinarySearch
 * [153. Find Minimum in Rotated Sorted Array](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)
