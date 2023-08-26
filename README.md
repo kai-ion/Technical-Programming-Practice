@@ -6,6 +6,8 @@
 
 [61. Rotate List](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0061.%20Rotate%20List.md)
 
+[42. Trapping Rain Water ](https://leetcode.com/problems/trapping-rain-water/description/)
+
 [76. Minimum Window Substring](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0076.%20Minimum%20Window%20Substring.md)
 
 [153. Find Minimum in Rotated Sorted Array](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)
@@ -31,6 +33,7 @@
 
 #### Two pointer
 * [15. 3Sum](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0015.%203Sum.md)
+* [42. Trapping Rain Water ](https://leetcode.com/problems/trapping-rain-water/description/)
 
 #### Sliding Window
 * [76. Minimum Window Substring](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0076.%20Minimum%20Window%20Substring.md)
