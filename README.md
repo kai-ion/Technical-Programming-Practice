@@ -14,6 +14,8 @@
 
 [227. Basic Calculator II](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0227.%20Basic%20Calculator%20II.md)
 
+[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)
+
 [297. Serialize and Deserialize Binary Tree](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
 
 [377. Combination Sum IV](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0377.%20Combination%20Sum%20IV.md)
@@ -58,3 +60,6 @@
 
 #### Math
 * [227. Basic Calculator II](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0227.%20Basic%20Calculator%20II.md)
+
+#### Priority Queue
+* [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)
