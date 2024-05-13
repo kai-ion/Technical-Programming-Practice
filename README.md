@@ -28,7 +28,7 @@
 
 [435. Non-overlapping Intervals](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0435.%20Non-overlapping%20Intervals.md)
 
-[1235. Maximum Profit in Job Scheduling](/LeetCode/1235. Maximum Profit in Job Scheduling.md)
+[1235. Maximum Profit in Job Scheduling](/LeetCode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.md)
 
 
 <br>
@@ -68,7 +68,7 @@
 #### Math
 * [224. Basic Calculator](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0224.%20Basic%20Calculator.md)
 * [227. Basic Calculator II](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0227.%20Basic%20Calculator%20II.md)
-* [1235. Maximum Profit in Job Scheduling](/LeetCode/1235. Maximum Profit in Job Scheduling.md)
+* [1235. Maximum Profit in Job Scheduling](/LeetCode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.md)
 
 
 #### Priority Queue
