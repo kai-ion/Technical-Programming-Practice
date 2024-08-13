@@ -4,11 +4,13 @@
 
 [15. 3Sum](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0015.%203Sum.md)
 
-[61. Rotate List](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0061.%20Rotate%20List.md)
-
 [42. Trapping Rain Water ](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0042.%20Trapping%20Rain%20Water.md)
 
+[61. Rotate List](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0061.%20Rotate%20List.md)
+
 [76. Minimum Window Substring](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0076.%20Minimum%20Window%20Substring.md)
+
+[84. Largest Rectangle in Histogram](LeetCode/0084.%20Largest%20Rectangle%20in%20Histogram.md)
 
 [127. Word Ladder](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0127.%20Word%20Ladder.md)
 
@@ -70,6 +72,8 @@
 * [227. Basic Calculator II](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0227.%20Basic%20Calculator%20II.md)
 * [1235. Maximum Profit in Job Scheduling](/LeetCode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.md)
 
+#### Monotonic Stack
+* [84. Largest Rectangle in Histogram](LeetCode/0084.%20Largest%20Rectangle%20in%20Histogram.md)
 
 #### Priority Queue
 * [295. Find Median from Data Stream](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
