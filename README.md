@@ -2,9 +2,11 @@
 
 ## LeetCode
 
-[15. 3Sum](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0015.%203Sum.md)
+[15. 3Sum](LeetCode/0015.%203Sum.md)
 
 [42. Trapping Rain Water ](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0042.%20Trapping%20Rain%20Water.md)
+
+[45. Jump Game II](LeetCode/0045.%20Jump%20Game%20II.md)
 
 [61. Rotate List](LeetCode/0061.%20Rotate%20List.md)
 
@@ -45,7 +47,7 @@
 ## Topics
 
 #### Two pointer
-* [15. 3Sum](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0015.%203Sum.md)
+* [15. 3Sum](LeetCode/0015.%203Sum.md)
 * [42. Trapping Rain Water ](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0042.%20Trapping%20Rain%20Water.md)
 
 #### Sliding Window
@@ -55,12 +57,13 @@
 * [380. Insert Delete GetRandom O(1)](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0380.%20Insert%20Delete%20GetRandom%20O(1).md)
 
 #### LinkedList
-* [61. Rotate List](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0061.%20Rotate%20List.md)
+* [61. Rotate List](LeetCode/0061.%20Rotate%20List.md)
 
 #### Intervals
 * [435. Non-overlapping Intervals](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0435.%20Non-overlapping%20Intervals.md)
 
 #### DepthFirstSearch
+* [45. Jump Game II](LeetCode/0045.%20Jump%20Game%20II.md)
 * [297. Serialize and Deserialize Binary Tree](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
 * [694. Number of Distinct Islands 🔒](LeetCode/0694.%20Number%20of%20Distinct%20Islands.md)
 
