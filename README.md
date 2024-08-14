@@ -24,17 +24,19 @@
 
 [227. Basic Calculator II](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0227.%20Basic%20Calculator%20II.md)
 
-[295. Find Median from Data Stream](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
+[295. Find Median from Data Stream](LeetCode/0295.%20Find%20Median%20from%20Data%20Stream.md)
 
-[297. Serialize and Deserialize Binary Tree](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
+[297. Serialize and Deserialize Binary Tree](LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
 
-[377. Combination Sum IV](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0377.%20Combination%20Sum%20IV.md)
+[377. Combination Sum IV](Leetcode/0377.%20Combination%20Sum%20IV.md)
 
 [380. Insert Delete GetRandom O(1)](LeetCode/0380.%20Insert%20Delete%20GetRandom%20O(1).md)
 
 [435. Non-overlapping Intervals](LeetCode/0435.%20Non-overlapping%20Intervals.md)
 
 [449. Serialize and Deserialize BST](LeetCode/0449.%20Serialize%20and%20Deserialize%20BST.md)
+
+[538. Convert BST to Greater Tree](LeetCode/0538.%20Convert%20BST%20to%20Greater%20Tree.md)
 
 [545. Boundary of Binary Tree 🔒](LeetCode/0545.%20Boundary%20of%20Binary%20Tree%20%F0%9F%94%92.md)
 
@@ -75,6 +77,7 @@
 * [45. Jump Game II](LeetCode/0045.%20Jump%20Game%20II.md)
 * [124. Binary Tree Maximum Path Sum](leetcode/0124.%20Binary%20Tree%20Maximum%20Path%20Sum.md)
 * [297. Serialize and Deserialize Binary Tree](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
+* [538. Convert BST to Greater Tree](LeetCode/0538.%20Convert%20BST%20to%20Greater%20Tree.md)
 * [545. Boundary of Binary Tree 🔒](LeetCode/0545.%20Boundary%20of%20Binary%20Tree%20%F0%9F%94%92.md)
 * [694. Number of Distinct Islands 🔒](LeetCode/0694.%20Number%20of%20Distinct%20Islands.md)
 
