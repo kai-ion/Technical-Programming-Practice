@@ -34,6 +34,8 @@
 
 [435. Non-overlapping Intervals](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0435.%20Non-overlapping%20Intervals.md)
 
+[545. Boundary of Binary Tree 🔒](LeetCode/0545.%20Boundary%20of%20Binary%20Tree%20%F0%9F%94%92.md)
+
 [694. Number of Distinct Islands 🔒](LeetCode/0694.%20Number%20of%20Distinct%20Islands.md)
 
 [1235. Maximum Profit in Job Scheduling](/LeetCode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.md)
@@ -68,6 +70,7 @@
 * [45. Jump Game II](LeetCode/0045.%20Jump%20Game%20II.md)
 * [124. Binary Tree Maximum Path Sum](leetcode/0124.%20Binary%20Tree%20Maximum%20Path%20Sum.md)
 * [297. Serialize and Deserialize Binary Tree](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
+* [545. Boundary of Binary Tree 🔒](LeetCode/0545.%20Boundary%20of%20Binary%20Tree%20%F0%9F%94%92.md)
 * [694. Number of Distinct Islands 🔒](LeetCode/0694.%20Number%20of%20Distinct%20Islands.md)
 
 #### BinarySearch
