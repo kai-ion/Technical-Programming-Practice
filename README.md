@@ -4,19 +4,21 @@
 
 [15. 3Sum](LeetCode/0015.%203Sum.md)
 
-[42. Trapping Rain Water ](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0042.%20Trapping%20Rain%20Water.md)
+[42. Trapping Rain Water ](LeetCode/0042.%20Trapping%20Rain%20Water.md)
 
 [45. Jump Game II](LeetCode/0045.%20Jump%20Game%20II.md)
 
 [61. Rotate List](LeetCode/0061.%20Rotate%20List.md)
 
-[76. Minimum Window Substring](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0076.%20Minimum%20Window%20Substring.md)
+[76. Minimum Window Substring](LeetCode/0076.%20Minimum%20Window%20Substring.md)
 
 [84. Largest Rectangle in Histogram](LeetCode/0084.%20Largest%20Rectangle%20in%20Histogram.md)
 
 [124. Binary Tree Maximum Path Sum](leetcode/0124.%20Binary%20Tree%20Maximum%20Path%20Sum.md)
 
 [127. Word Ladder](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0127.%20Word%20Ladder.md)
+
+[138. Copy List with Random Pointer](LeetCode/0138.%20Copy%20List%20with%20Random%20Pointer.md)
 
 [153. Find Minimum in Rotated Sorted Array](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)
 
@@ -68,6 +70,7 @@
 
 #### LinkedList
 * [61. Rotate List](LeetCode/0061.%20Rotate%20List.md)
+* [138. Copy List with Random Pointer](LeetCode/0138.%20Copy%20List%20with%20Random%20Pointer.md)
 
 #### Intervals
 * [435. Non-overlapping Intervals](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0435.%20Non-overlapping%20Intervals.md)
