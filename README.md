@@ -28,6 +28,8 @@
 
 [297. Serialize and Deserialize Binary Tree](LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
 
+[347. Top K Frequent Elements](LeetCode/0347.%20Top%20K%20Frequent%20Elements.md)
+
 [377. Combination Sum IV](Leetcode/0377.%20Combination%20Sum%20IV.md)
 
 [380. Insert Delete GetRandom O(1)](LeetCode/0380.%20Insert%20Delete%20GetRandom%20O(1).md)
@@ -97,6 +99,7 @@
 
 #### Priority Queue
 * [295. Find Median from Data Stream](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
-g
+* [347. Top K Frequent Elements](LeetCode/0347.%20Top%20K%20Frequent%20Elements.md)
+
 #### Graph
 * [127. Word Ladder](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0127.%20Word%20Ladder.md)
