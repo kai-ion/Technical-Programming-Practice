@@ -46,6 +46,8 @@
 
 [694. Number of Distinct Islands 🔒](LeetCode/0694.%20Number%20of%20Distinct%20Islands.md)
 
+[895. Maximum Frequency Stack](Leetcode/0895.%20Maximum%20Frequency%20Stack.md)
+
 [1235. Maximum Profit in Job Scheduling](/LeetCode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.md)
 
 
@@ -96,6 +98,9 @@
 * [224. Basic Calculator](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0224.%20Basic%20Calculator.md)
 * [227. Basic Calculator II](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0227.%20Basic%20Calculator%20II.md)
 * [1235. Maximum Profit in Job Scheduling](/LeetCode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.md)
+
+#### Stacks
+* [895. Maximum Frequency Stack](Leetcode/0895.%20Maximum%20Frequency%20Stack.md)
 
 #### Monotonic Stack
 * [84. Largest Rectangle in Histogram](LeetCode/0084.%20Largest%20Rectangle%20in%20Histogram.md)
