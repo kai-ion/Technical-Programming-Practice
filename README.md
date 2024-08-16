@@ -50,6 +50,8 @@
 
 [1235. Maximum Profit in Job Scheduling](/LeetCode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.md)
 
+[2191. Sort the Jumbled Numbers](LeetCode/2191.%20Sort%20the%20Jumbled%20Numbers.md)
+
 
 <br>
 
@@ -68,7 +70,8 @@
 * [76. Minimum Window Substring](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0076.%20Minimum%20Window%20Substring.md)
 
 #### Dictionary/HashMap
-* [380. Insert Delete GetRandom O(1)](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0380.%20Insert%20Delete%20GetRandom%20O(1).md)
+* [380. Insert Delete GetRandom O(1)](LeetCode/0380.%20Insert%20Delete%20GetRandom%20O(1).md)
+* [2191. Sort the Jumbled Numbers](LeetCode/2191.%20Sort%20the%20Jumbled%20Numbers.md)
 
 #### LinkedList
 * [61. Rotate List](LeetCode/0061.%20Rotate%20List.md)
