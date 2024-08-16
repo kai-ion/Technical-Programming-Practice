@@ -52,6 +52,8 @@
 
 [1235. Maximum Profit in Job Scheduling](/LeetCode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.md)
 
+[1382. Balance a Binary Search Tree](leetcode/1382.%20Balance%20a%20Binary%20Search%20Tree.md)
+
 [2191. Sort the Jumbled Numbers](LeetCode/2191.%20Sort%20the%20Jumbled%20Numbers.md)
 
 
@@ -116,4 +118,7 @@
 * [347. Top K Frequent Elements](LeetCode/0347.%20Top%20K%20Frequent%20Elements.md)
 
 #### Graph
-* [127. Word Ladder](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0127.%20Word%20Ladder.md)
+* [127. Word Ladder](leetcode/0127.%20Word%20Ladder.md)
+
+#### Binary Tree
+* [1382. Balance a Binary Search Tree](leetcode/1382.%20Balance%20a%20Binary%20Search%20Tree.md)
