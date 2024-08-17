@@ -32,6 +32,8 @@
 
 [297. Serialize and Deserialize Binary Tree](LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
 
+[329. Longest Increasing Path in a Matrix](LeetCode/0329.%20Longest%20Increasing%20Path%20in%20a%20Matrix.md)
+
 [347. Top K Frequent Elements](LeetCode/0347.%20Top%20K%20Frequent%20Elements.md)
 
 [377. Combination Sum IV](Leetcode/0377.%20Combination%20Sum%20IV.md)
@@ -122,3 +124,6 @@
 
 #### Binary Tree
 * [1382. Balance a Binary Search Tree](leetcode/1382.%20Balance%20a%20Binary%20Search%20Tree.md)
+
+#### Topological Sort
+* [329. Longest Increasing Path in a Matrix](LeetCode/0329.%20Longest%20Increasing%20Path%20in%20a%20Matrix.md)
