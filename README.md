@@ -2,6 +2,8 @@
 
 ## LeetCode
 
+[10. Regular Expression Matching](leetcode/0010.%20Regular%20Expression%20Matching.md)
+
 [15. 3Sum](LeetCode/0015.%203Sum.md)
 
 [42. Trapping Rain Water ](LeetCode/0042.%20Trapping%20Rain%20Water.md)
@@ -16,7 +18,7 @@
 
 [124. Binary Tree Maximum Path Sum](leetcode/0124.%20Binary%20Tree%20Maximum%20Path%20Sum.md)
 
-[127. Word Ladder](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0127.%20Word%20Ladder.md)
+[127. Word Ladder](leetcode/0127.%20Word%20Ladder.md)
 
 [138. Copy List with Random Pointer](LeetCode/0138.%20Copy%20List%20with%20Random%20Pointer.md)
 
@@ -102,7 +104,8 @@
 * [153. Find Minimum in Rotated Sorted Array](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)
 
 #### Dynamic Programming
-* [377. Combination Sum IV](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0377.%20Combination%20Sum%20IV.md)
+* [10. Regular Expression Matching](leetcode/0010.%20Regular%20Expression%20Matching.md)
+* [377. Combination Sum IV](leetcode/0377.%20Combination%20Sum%20IV.md)
 
 #### Math
 * [224. Basic Calculator](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0224.%20Basic%20Calculator.md)
