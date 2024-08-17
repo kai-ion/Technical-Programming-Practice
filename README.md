@@ -22,9 +22,9 @@
 
 [138. Copy List with Random Pointer](LeetCode/0138.%20Copy%20List%20with%20Random%20Pointer.md)
 
-[153. Find Minimum in Rotated Sorted Array](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)
+[153. Find Minimum in Rotated Sorted Array](leetcode/0153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)
 
-[224. Basic Calculator](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0224.%20Basic%20Calculator.md)
+[224. Basic Calculator](leetcode/0224.%20Basic%20Calculator.md)
 
 [227. Basic Calculator II](leetcode/0227.%20Basic%20Calculator%20II.md)
 
@@ -57,6 +57,8 @@
 [1235. Maximum Profit in Job Scheduling](/LeetCode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.md)
 
 [1382. Balance a Binary Search Tree](leetcode/1382.%20Balance%20a%20Binary%20Search%20Tree.md)
+
+[1509. Minimum Difference Between Largest and Smallest Value in Three Moves](leetcode/1509.%20Minimum%20Difference%20Between%20Largest%20and%20Smallest%20Value%20in%20Three%20Moves.md)
 
 [2191. Sort the Jumbled Numbers](LeetCode/2191.%20Sort%20the%20Jumbled%20Numbers.md)
 
@@ -119,8 +121,9 @@
 * [84. Largest Rectangle in Histogram](LeetCode/0084.%20Largest%20Rectangle%20in%20Histogram.md)
 
 #### Priority Queue
-* [295. Find Median from Data Stream](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
+* [295. Find Median from Data Stream](leetcode/0295.%20Find%20Median%20from%20Data%20Stream.md)
 * [347. Top K Frequent Elements](LeetCode/0347.%20Top%20K%20Frequent%20Elements.md)
+* [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](leetcode/1509.%20Minimum%20Difference%20Between%20Largest%20and%20Smallest%20Value%20in%20Three%20Moves.md)
 
 #### Graph
 * [127. Word Ladder](leetcode/0127.%20Word%20Ladder.md)
