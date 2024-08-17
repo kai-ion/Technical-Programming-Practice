@@ -12,6 +12,8 @@
 
 [61. Rotate List](LeetCode/0061.%20Rotate%20List.md)
 
+[70. Climbing Stairs](leetcode/0070.%20Climbing%20Stairs.md)
+
 [76. Minimum Window Substring](LeetCode/0076.%20Minimum%20Window%20Substring.md)
 
 [84. Largest Rectangle in Histogram](LeetCode/0084.%20Largest%20Rectangle%20in%20Histogram.md)
@@ -107,11 +109,12 @@
 
 #### Dynamic Programming
 * [10. Regular Expression Matching](leetcode/0010.%20Regular%20Expression%20Matching.md)
+* [70. Climbing Stairs](leetcode/0070.%20Climbing%20Stairs.md)
 * [377. Combination Sum IV](leetcode/0377.%20Combination%20Sum%20IV.md)
 
 #### Math
-* [224. Basic Calculator](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0224.%20Basic%20Calculator.md)
-* [227. Basic Calculator II](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0227.%20Basic%20Calculator%20II.md)
+* [224. Basic Calculator](leetcode/0224.%20Basic%20Calculator.md)
+* [227. Basic Calculator II](leetcode/0227.%20Basic%20Calculator%20II.md)
 * [1235. Maximum Profit in Job Scheduling](/LeetCode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.md)
 
 #### Stacks
