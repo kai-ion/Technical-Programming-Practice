@@ -6,6 +6,8 @@
 
 [15. 3Sum](LeetCode/0015.%203Sum.md)
 
+[23. Merge k Sorted Lists](leetcode/0023.%20Merge%20k%20Sorted%20Lists.md)
+
 [42. Trapping Rain Water ](LeetCode/0042.%20Trapping%20Rain%20Water.md)
 
 [45. Jump Game II](LeetCode/0045.%20Jump%20Game%20II.md)
@@ -89,9 +91,10 @@
 #### LinkedList
 * [61. Rotate List](LeetCode/0061.%20Rotate%20List.md)
 * [138. Copy List with Random Pointer](LeetCode/0138.%20Copy%20List%20with%20Random%20Pointer.md)
+* [23. Merge k Sorted Lists](leetcode/0023.%20Merge%20k%20Sorted%20Lists.md)
 
 #### Intervals
-* [435. Non-overlapping Intervals](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0435.%20Non-overlapping%20Intervals.md)
+* [435. Non-overlapping Intervals](leetcode/0435.%20Non-overlapping%20Intervals.md)
 
 #### BreadthFirstSearch
 * [449. Serialize and Deserialize BST](LeetCode/0449.%20Serialize%20and%20Deserialize%20BST.md)
