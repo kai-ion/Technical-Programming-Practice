@@ -2,6 +2,8 @@
 
 ## LeetCode
 
+[4. Median of Two Sorted Arrays](Leetcode/0004.%20Median%20of%20Two%20Sorted%20Arrays.md)
+
 [10. Regular Expression Matching](leetcode/0010.%20Regular%20Expression%20Matching.md)
 
 [15. 3Sum](LeetCode/0015.%203Sum.md)
@@ -108,6 +110,7 @@
 * [694. Number of Distinct Islands 🔒](LeetCode/0694.%20Number%20of%20Distinct%20Islands.md)
 
 #### BinarySearch
+* [4. Median of Two Sorted Arrays](Leetcode/0004.%20Median%20of%20Two%20Sorted%20Arrays.md)
 * [153. Find Minimum in Rotated Sorted Array](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)
 
 #### Dynamic Programming
