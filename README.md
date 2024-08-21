@@ -58,6 +58,8 @@
 
 [694. Number of Distinct Islands 🔒](LeetCode/0694.%20Number%20of%20Distinct%20Islands.md)
 
+[875. Koko Eating Bananas](Leetcode/0875.%20Koko%20Eating%20Bananas.md)
+
 [895. Maximum Frequency Stack](Leetcode/0895.%20Maximum%20Frequency%20Stack.md)
 
 [1235. Maximum Profit in Job Scheduling](/LeetCode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.md)
@@ -115,6 +117,7 @@
 #### BinarySearch
 * [4. Median of Two Sorted Arrays](Leetcode/0004.%20Median%20of%20Two%20Sorted%20Arrays.md)
 * [153. Find Minimum in Rotated Sorted Array](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)
+* [875. Koko Eating Bananas](Leetcode/0875.%20Koko%20Eating%20Bananas.md)
 
 #### Dynamic Programming
 * [10. Regular Expression Matching](leetcode/0010.%20Regular%20Expression%20Matching.md)
