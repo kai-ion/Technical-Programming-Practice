@@ -22,6 +22,8 @@
 
 [84. Largest Rectangle in Histogram](LeetCode/0084.%20Largest%20Rectangle%20in%20Histogram.md)
 
+[88. Merge Sorted Array](leetcode/0088.%20Merge%20Sorted%20Array.md)
+
 [124. Binary Tree Maximum Path Sum](leetcode/0124.%20Binary%20Tree%20Maximum%20Path%20Sum.md)
 
 [127. Word Ladder](leetcode/0127.%20Word%20Ladder.md)
@@ -84,11 +86,12 @@
 
 #### Two pointer
 * [15. 3Sum](LeetCode/0015.%203Sum.md)
-* [42. Trapping Rain Water ](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0042.%20Trapping%20Rain%20Water.md)
+* [42. Trapping Rain Water ](leetcode/0042.%20Trapping%20Rain%20Water.md)
+* [88. Merge Sorted Array](leetcode/0088.%20Merge%20Sorted%20Array.md)
 * [1768. Merge Strings Alternately](leetcode/1768.%20Merge%20Strings%20Alternately.md)
 
 #### Sliding Window
-* [76. Minimum Window Substring](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0076.%20Minimum%20Window%20Substring.md)
+* [76. Minimum Window Substring](leetcode/0076.%20Minimum%20Window%20Substring.md)
 * [239. Sliding Window Maximum](leetcode/0239.%20Sliding%20Window%20Maximum.md)
 
 #### Dictionary/HashMap
