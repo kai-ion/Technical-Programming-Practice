@@ -60,6 +60,8 @@
 
 [694. Number of Distinct Islands 🔒](LeetCode/0694.%20Number%20of%20Distinct%20Islands.md)
 
+[767. Reorganize String](leetcode/0767.%20Reorganize%20String.md)
+
 [875. Koko Eating Bananas](Leetcode/0875.%20Koko%20Eating%20Bananas.md)
 
 [895. Maximum Frequency Stack](Leetcode/0895.%20Maximum%20Frequency%20Stack.md)
@@ -141,6 +143,7 @@
 #### Priority Queue
 * [295. Find Median from Data Stream](leetcode/0295.%20Find%20Median%20from%20Data%20Stream.md)
 * [347. Top K Frequent Elements](LeetCode/0347.%20Top%20K%20Frequent%20Elements.md)
+* [767. Reorganize String](leetcode/0767.%20Reorganize%20String.md)
 * [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](leetcode/1509.%20Minimum%20Difference%20Between%20Largest%20and%20Smallest%20Value%20in%20Three%20Moves.md)
 
 #### Graph
