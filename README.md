@@ -30,6 +30,8 @@
 
 [138. Copy List with Random Pointer](LeetCode/0138.%20Copy%20List%20with%20Random%20Pointer.md)
 
+[146. LRU Cache](leetcode/0146.%20LRU%20Cache.md)
+
 [153. Find Minimum in Rotated Sorted Array](leetcode/0153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)
 
 [224. Basic Calculator](leetcode/0224.%20Basic%20Calculator.md)
@@ -101,9 +103,11 @@
 * [2191. Sort the Jumbled Numbers](LeetCode/2191.%20Sort%20the%20Jumbled%20Numbers.md)
 
 #### LinkedList
+* [23. Merge k Sorted Lists](leetcode/0023.%20Merge%20k%20Sorted%20Lists.md)
 * [61. Rotate List](LeetCode/0061.%20Rotate%20List.md)
 * [138. Copy List with Random Pointer](LeetCode/0138.%20Copy%20List%20with%20Random%20Pointer.md)
-* [23. Merge k Sorted Lists](leetcode/0023.%20Merge%20k%20Sorted%20Lists.md)
+* [146. LRU Cache](leetcode/0146.%20LRU%20Cache.md)
+
 
 #### Intervals
 * [435. Non-overlapping Intervals](leetcode/0435.%20Non-overlapping%20Intervals.md)
