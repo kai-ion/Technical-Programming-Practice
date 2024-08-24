@@ -114,14 +114,14 @@
 #### DepthFirstSearch
 * [45. Jump Game II](LeetCode/0045.%20Jump%20Game%20II.md)
 * [124. Binary Tree Maximum Path Sum](leetcode/0124.%20Binary%20Tree%20Maximum%20Path%20Sum.md)
-* [297. Serialize and Deserialize Binary Tree](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
+* [297. Serialize and Deserialize Binary Tree](leetcode/0297.%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
 * [538. Convert BST to Greater Tree](LeetCode/0538.%20Convert%20BST%20to%20Greater%20Tree.md)
 * [545. Boundary of Binary Tree 🔒](LeetCode/0545.%20Boundary%20of%20Binary%20Tree%20%F0%9F%94%92.md)
 * [694. Number of Distinct Islands 🔒](LeetCode/0694.%20Number%20of%20Distinct%20Islands.md)
 
 #### BinarySearch
 * [4. Median of Two Sorted Arrays](Leetcode/0004.%20Median%20of%20Two%20Sorted%20Arrays.md)
-* [153. Find Minimum in Rotated Sorted Array](https://github.com/kai-ion/Technical-Programming-Practice/blob/main/LeetCode/0153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)
+* [153. Find Minimum in Rotated Sorted Array](leetcode/0153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)
 * [875. Koko Eating Bananas](Leetcode/0875.%20Koko%20Eating%20Bananas.md)
 
 #### Dynamic Programming
