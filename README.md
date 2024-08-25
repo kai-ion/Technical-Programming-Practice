@@ -56,6 +56,8 @@
 
 [449. Serialize and Deserialize BST](LeetCode/0449.%20Serialize%20and%20Deserialize%20BST.md)
 
+[472. Concatenated Words](leetcode/0472.%20Concatenated%20Words.md)
+
 [538. Convert BST to Greater Tree](LeetCode/0538.%20Convert%20BST%20to%20Greater%20Tree.md)
 
 [545. Boundary of Binary Tree 🔒](LeetCode/0545.%20Boundary%20of%20Binary%20Tree%20%F0%9F%94%92.md)
@@ -158,3 +160,6 @@
 
 #### Topological Sort
 * [329. Longest Increasing Path in a Matrix](LeetCode/0329.%20Longest%20Increasing%20Path%20in%20a%20Matrix.md)
+
+#### Trie
+* [472. Concatenated Words](leetcode/0472.%20Concatenated%20Words.md)
