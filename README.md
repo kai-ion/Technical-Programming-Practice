@@ -78,6 +78,8 @@
 
 [1768. Merge Strings Alternately](leetcode/1768.%20Merge%20Strings%20Alternately.md)
 
+[2055. Plates Between Candles](leetcode/2055.%20Plates%20Between%20Candles.md)
+
 [2191. Sort the Jumbled Numbers](LeetCode/2191.%20Sort%20the%20Jumbled%20Numbers.md)
 
 
@@ -163,3 +165,6 @@
 
 #### Trie
 * [472. Concatenated Words](leetcode/0472.%20Concatenated%20Words.md)
+
+#### PrefixSum
+* [2055. Plates Between Candles](leetcode/2055.%20Plates%20Between%20Candles.md)
