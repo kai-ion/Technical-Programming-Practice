@@ -82,6 +82,8 @@
 
 [2191. Sort the Jumbled Numbers](LeetCode/2191.%20Sort%20the%20Jumbled%20Numbers.md)
 
+[2268. Minimum Number of Keypresses 🔒](leetcode/2268.%20Minimum%20Number%20of%20Keypresses%20%F0%9F%94%92.md)
+
 
 <br>
 
@@ -105,6 +107,7 @@
 #### Dictionary/HashMap
 * [380. Insert Delete GetRandom O(1)](LeetCode/0380.%20Insert%20Delete%20GetRandom%20O(1).md)
 * [2191. Sort the Jumbled Numbers](LeetCode/2191.%20Sort%20the%20Jumbled%20Numbers.md)
+* [2268. Minimum Number of Keypresses 🔒](leetcode/2268.%20Minimum%20Number%20of%20Keypresses%20%F0%9F%94%92.md)
 
 #### LinkedList
 * [23. Merge k Sorted Lists](leetcode/0023.%20Merge%20k%20Sorted%20Lists.md)
