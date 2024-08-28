@@ -70,6 +70,8 @@
 
 [895. Maximum Frequency Stack](Leetcode/0895.%20Maximum%20Frequency%20Stack.md)
 
+[1152. Analyze User Website Visit Pattern 🔒](leetcode/1152.%20Analyze%20User%20Website%20Visit%20Pattern%20%F0%9F%94%92.md)
+
 [1235. Maximum Profit in Job Scheduling](/LeetCode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.md)
 
 [1382. Balance a Binary Search Tree](leetcode/1382.%20Balance%20a%20Binary%20Search%20Tree.md)
@@ -106,6 +108,7 @@
 
 #### Dictionary/HashMap
 * [380. Insert Delete GetRandom O(1)](LeetCode/0380.%20Insert%20Delete%20GetRandom%20O(1).md)
+* [1152. Analyze User Website Visit Pattern 🔒](leetcode/1152.%20Analyze%20User%20Website%20Visit%20Pattern%20%F0%9F%94%92.md)
 * [2191. Sort the Jumbled Numbers](LeetCode/2191.%20Sort%20the%20Jumbled%20Numbers.md)
 * [2268. Minimum Number of Keypresses 🔒](leetcode/2268.%20Minimum%20Number%20of%20Keypresses%20%F0%9F%94%92.md)
 
