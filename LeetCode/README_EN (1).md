@@ -1,45 +1,61 @@
-
+---
+comments: true
+difficulty: Hard
+edit_url: https://github.com/doocs/leetcode/edit/main/solution/2700-2799/2781.Length%20of%20the%20Longest%20Valid%20Substring/README_EN.md
+rating: 2203
+source: Weekly Contest 354 Q4
+tags:
+    - Array
+    - Hash Table
+    - String
+    - Sliding Window
+---
 
 <!-- problem:start -->
 
-# [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses)
+# [2781. Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring)
+
+[中文文档](/solution/2700-2799/2781.Length%20of%20the%20Longest%20Valid%20Substring/README.md)
 
 ## Description
 
 <!-- description:start -->
 
-<p>Given a string containing just the characters <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code>, return <em>the length of the longest valid (well-formed) parentheses </em><span data-keyword="substring-nonempty"><em>substring</em></span>.</p>
+<p>You are given a string <code>word</code> and an array of strings <code>forbidden</code>.</p>
+
+<p>A string is called <strong>valid</strong> if none of its substrings are present in <code>forbidden</code>.</p>
+
+<p>Return <em>the length of the <strong>longest valid substring</strong> of the string </em><code>word</code>.</p>
+
+<p>A <strong>substring</strong> is a contiguous sequence of characters in a string, possibly empty.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>Input:</strong> s = &quot;(()&quot;
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> The longest valid parentheses substring is &quot;()&quot;.
-</pre>
+<strong>Input:</strong> word = &quot;cbaaaabc&quot;, forbidden = [&quot;aaa&quot;,&quot;cb&quot;]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> There are 11 valid substrings in word: &quot;c&quot;, &quot;b&quot;, &quot;a&quot;, &quot;ba&quot;, &quot;aa&quot;, &quot;bc&quot;, &quot;baa&quot;, &quot;aab&quot;, &quot;ab&quot;, &quot;abc&quot; and &quot;aabc&quot;. The length of the longest valid substring is 4. 
+It can be shown that all other substrings contain either &quot;aaa&quot; or &quot;cb&quot; as a substring. </pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>Input:</strong> s = &quot;)()())&quot;
+<strong>Input:</strong> word = &quot;leetcode&quot;, forbidden = [&quot;de&quot;,&quot;le&quot;,&quot;e&quot;]
 <strong>Output:</strong> 4
-<strong>Explanation:</strong> The longest valid parentheses substring is &quot;()()&quot;.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;&quot;
-<strong>Output:</strong> 0
+<strong>Explanation:</strong> There are 11 valid substrings in word: &quot;l&quot;, &quot;t&quot;, &quot;c&quot;, &quot;o&quot;, &quot;d&quot;, &quot;tc&quot;, &quot;co&quot;, &quot;od&quot;, &quot;tco&quot;, &quot;cod&quot;, and &quot;tcod&quot;. The length of the longest valid substring is 4.
+It can be shown that all other substrings contain either &quot;de&quot;, &quot;le&quot;, or &quot;e&quot; as a substring. 
 </pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>0 &lt;= s.length &lt;= 3 * 10<sup>4</sup></code></li>
-	<li><code>s[i]</code> is <code>&#39;(&#39;</code>, or <code>&#39;)&#39;</code>.</li>
+	<li><code>1 &lt;= word.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>word</code> consists only of lowercase English letters.</li>
+	<li><code>1 &lt;= forbidden.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= forbidden[i].length &lt;= 10</code></li>
+	<li><code>forbidden[i]</code> consists only of lowercase English letters.</li>
 </ul>
 
 <!-- description:end -->
@@ -48,32 +64,7 @@
 
 <!-- solution:start -->
 
-### Solution 1: Dynamic Programming
-
-We define $f[i]$ to be the length of the longest valid parentheses that ends with $s[i-1]$, and the answer is $max(f[i])$.
-
-When $i \lt 2$, the length of the string is less than $2$, and there is no valid parentheses, so $f[i] = 0$.
-
-When $i \ge 2$, we consider the length of the longest valid parentheses that ends with $s[i-1]$, that is, $f[i]$:
-
--   If $s[i-1]$ is a left parenthesis, then the length of the longest valid parentheses that ends with $s[i-1]$ must be $0$, so $f[i] = 0$.
--   If $s[i-1]$ is a right parenthesis, there are the following two cases:
-    -   If $s[i-2]$ is a left parenthesis, then the length of the longest valid parentheses that ends with $s[i-1]$ is $f[i-2] + 2$.
-    -   If $s[i-2]$ is a right parenthesis, then the length of the longest valid parentheses that ends with $s[i-1]$ is $f[i-1] + 2$, but we also need to consider whether $s[i-f[i-1]-2]$ is a left parenthesis. If it is a left parenthesis, then the length of the longest valid parentheses that ends with $s[i-1]$ is $f[i-1] + 2 + f[i-f[i-1]-2]$.
-
-Therefore, we can get the state transition equation:
-
-$$
-\begin{cases}
-f[i] = 0, & \textit{if } s[i-1] = '(',\\
-f[i] = f[i-2] + 2, & \textit{if } s[i-1] = ')' \textit{ and } s[i-2] = '(',\\
-f[i] = f[i-1] + 2 + f[i-f[i-1]-2], & \textit{if } s[i-1] = ')' \textit{ and } s[i-2] = ')' \textit{ and } s[i-f[i-1]-2] = '(',\\
-\end{cases}
-$$
-
-Finally, we only need to return $max(f)$.
-
-The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is the length of the string.
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -81,40 +72,33 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is 
 
 ```python
 class Solution:
-    def longestValidParentheses(self, s: str) -> int:
-        n = len(s)
-        f = [0] * (n + 1)
-        for i, c in enumerate(s, 1):
-            if c == ")":
-                if i > 1 and s[i - 2] == "(":
-                    f[i] = f[i - 2] + 2
-                else:
-                    j = i - f[i - 1] - 1
-                    if j and s[j - 1] == "(":
-                        f[i] = f[i - 1] + 2 + f[j - 1]
-        return max(f)
+    def longestValidSubstring(self, word: str, forbidden: List[str]) -> int:
+        s = set(forbidden)
+        ans = i = 0
+        for j in range(len(word)):
+            for k in range(j, max(j - 10, i - 1), -1):
+                if word[k : j + 1] in s:
+                    i = k + 1
+                    break
+            ans = max(ans, j - i + 1)
+        return ans
 ```
 
 #### Java
 
 ```java
 class Solution {
-    public int longestValidParentheses(String s) {
-        int n = s.length();
-        int[] f = new int[n + 1];
-        int ans = 0;
-        for (int i = 2; i <= n; ++i) {
-            if (s.charAt(i - 1) == ')') {
-                if (s.charAt(i - 2) == '(') {
-                    f[i] = f[i - 2] + 2;
-                } else {
-                    int j = i - f[i - 1] - 1;
-                    if (j > 0 && s.charAt(j - 1) == '(') {
-                        f[i] = f[i - 1] + 2 + f[j - 1];
-                    }
+    public int longestValidSubstring(String word, List<String> forbidden) {
+        var s = new HashSet<>(forbidden);
+        int ans = 0, n = word.length();
+        for (int i = 0, j = 0; j < n; ++j) {
+            for (int k = j; k > Math.max(j - 10, i - 1); --k) {
+                if (s.contains(word.substring(k, j + 1))) {
+                    i = k + 1;
+                    break;
                 }
-                ans = Math.max(ans, f[i]);
             }
+            ans = Math.max(ans, j - i + 1);
         }
         return ans;
     }
@@ -126,314 +110,62 @@ class Solution {
 ```cpp
 class Solution {
 public:
-    int longestValidParentheses(string s) {
-        int n = s.size();
-        int f[n + 1];
-        memset(f, 0, sizeof(f));
-        for (int i = 2; i <= n; ++i) {
-            if (s[i - 1] == ')') {
-                if (s[i - 2] == '(') {
-                    f[i] = f[i - 2] + 2;
-                } else {
-                    int j = i - f[i - 1] - 1;
-                    if (j && s[j - 1] == '(') {
-                        f[i] = f[i - 1] + 2 + f[j - 1];
-                    }
+    int longestValidSubstring(string word, vector<string>& forbidden) {
+        unordered_set<string> s(forbidden.begin(), forbidden.end());
+        int ans = 0, n = word.size();
+        for (int i = 0, j = 0; j < n; ++j) {
+            for (int k = j; k > max(j - 10, i - 1); --k) {
+                if (s.count(word.substr(k, j - k + 1))) {
+                    i = k + 1;
+                    break;
                 }
             }
-        }
-        return *max_element(f, f + n + 1);
-    }
-};
-```
-
-#### Go
-
-```go
-func longestValidParentheses(s string) int {
-	n := len(s)
-	f := make([]int, n+1)
-	for i := 2; i <= n; i++ {
-		if s[i-1] == ')' {
-			if s[i-2] == '(' {
-				f[i] = f[i-2] + 2
-			} else if j := i - f[i-1] - 1; j > 0 && s[j-1] == '(' {
-				f[i] = f[i-1] + 2 + f[j-1]
-			}
-		}
-	}
-	return slices.Max(f)
-}
-```
-
-#### TypeScript
-
-```ts
-function longestValidParentheses(s: string): number {
-    const n = s.length;
-    const f: number[] = new Array(n + 1).fill(0);
-    for (let i = 2; i <= n; ++i) {
-        if (s[i - 1] === ')') {
-            if (s[i - 2] === '(') {
-                f[i] = f[i - 2] + 2;
-            } else {
-                const j = i - f[i - 1] - 1;
-                if (j && s[j - 1] === '(') {
-                    f[i] = f[i - 1] + 2 + f[j - 1];
-                }
-            }
-        }
-    }
-    return Math.max(...f);
-}
-```
-
-#### Rust
-
-```rust
-impl Solution {
-    pub fn longest_valid_parentheses(s: String) -> i32 {
-        let mut ans = 0;
-        let mut f = vec![0; s.len() + 1];
-        for i in 2..=s.len() {
-            if s.chars().nth(i - 1).unwrap() == ')' {
-                if s.chars().nth(i - 2).unwrap() == '(' {
-                    f[i] = f[i - 2] + 2;
-                } else if (i as i32) - f[i - 1] - 1 > 0
-                    && s.chars().nth(i - (f[i - 1] as usize) - 2).unwrap() == '('
-                {
-                    f[i] = f[i - 1] + 2 + f[i - (f[i - 1] as usize) - 2];
-                }
-                ans = ans.max(f[i]);
-            }
-        }
-        ans
-    }
-}
-```
-
-#### JavaScript
-
-```js
-/**
- * @param {string} s
- * @return {number}
- */
-var longestValidParentheses = function (s) {
-    const n = s.length;
-    const f = new Array(n + 1).fill(0);
-    for (let i = 2; i <= n; ++i) {
-        if (s[i - 1] === ')') {
-            if (s[i - 2] === '(') {
-                f[i] = f[i - 2] + 2;
-            } else {
-                const j = i - f[i - 1] - 1;
-                if (j && s[j - 1] === '(') {
-                    f[i] = f[i - 1] + 2 + f[j - 1];
-                }
-            }
-        }
-    }
-    return Math.max(...f);
-};
-```
-
-#### C#
-
-```cs
-public class Solution {
-    public int LongestValidParentheses(string s) {
-        int n = s.Length;
-        int[] f = new int[n + 1];
-        int ans = 0;
-        for (int i = 2; i <= n; ++i) {
-            if (s[i - 1] == ')') {
-                if (s[i - 2] == '(') {
-                    f[i] = f[i - 2] + 2;
-                } else {
-                    int j = i - f[i - 1] - 1;
-                    if (j > 0 && s[j - 1] == '(') {
-                        f[i] = f[i - 1] + 2 + f[j - 1];
-                    }
-                }
-                ans = Math.Max(ans, f[i]);
-            }
+            ans = max(ans, j - i + 1);
         }
         return ans;
     }
-}
-```
-
-<!-- tabs:end -->
-
-<!-- solution:end -->
-
-<!-- solution:start -->
-
-### Solution 2: Using Stack
-
--   Maintain a stack to store the indices of left parentheses. Initialize the bottom element of the stack with the value -1 to facilitate the calculation of the length of valid parentheses.
--   Iterate through each element of the string:
-    -   If the character is a left parenthesis, push the index of the character onto the stack.
-    -   If the character is a right parenthesis, pop an element from the stack to represent that we have found a valid pair of parentheses.
-        -   If the stack is empty, it means we couldn't find a left parenthesis to match the right parenthesis. In this case, push the index of the character as a new starting point.
-        -   If the stack is not empty, calculate the length of the valid parentheses and update it.
-
-Summary:
-
-The key to this algorithm is to maintain a stack to store the indices of left parentheses and then update the length of the valid substring of parentheses by pushing and popping elements.
-
-The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is the length of the string.
-
-<!-- tabs:start -->
-
-#### Python3
-
-```python
-class Solution:
-    def longestValidParentheses(self, s: str) -> int:
-        stack = [-1]
-        ans = 0
-        for i in range(len(s)):
-            if s[i] == '(':
-                stack.append(i)
-            else:
-                stack.pop()
-                if not stack:
-                    stack.append(i)
-                else:
-                    ans = max(ans, i - stack[-1])
-        return ans
+};
 ```
 
 #### Go
 
 ```go
-func longestValidParentheses(s string) int {
-	ans := 0
-	stack := []int{-1}
-	for i, v := range s {
-		if v == '(' {
-			stack = append(stack, i)
-		} else {
-			stack = stack[:len(stack)-1]
-			if len(stack) == 0 {
-				stack = append(stack, i)
-			} else {
-				if ans < i-stack[len(stack)-1] {
-					ans = i - stack[len(stack)-1]
-				}
+func longestValidSubstring(word string, forbidden []string) (ans int) {
+	s := map[string]bool{}
+	for _, x := range forbidden {
+		s[x] = true
+	}
+	n := len(word)
+	for i, j := 0, 0; j < n; j++ {
+		for k := j; k > max(j-10, i-1); k-- {
+			if s[word[k:j+1]] {
+				i = k + 1
+				break
 			}
 		}
+		ans = max(ans, j-i+1)
 	}
-	return ans
+	return
 }
 ```
 
 #### TypeScript
 
 ```ts
-function longestValidParentheses(s: string): number {
-    let max_length: number = 0;
-    const stack: number[] = [-1];
-    for (let i = 0; i < s.length; i++) {
-        if (s.charAt(i) == '(') {
-            stack.push(i);
-        } else {
-            stack.pop();
-
-            if (stack.length === 0) {
-                stack.push(i);
-            } else {
-                max_length = Math.max(max_length, i - stack[stack.length - 1]);
-            }
-        }
-    }
-
-    return max_length;
-}
-```
-
-#### Rust
-
-```rust
-impl Solution {
-    pub fn longest_valid_parentheses(s: String) -> i32 {
-        let mut stack = vec![-1];
-        let mut res = 0;
-        for i in 0..s.len() {
-            if let Some('(') = s.chars().nth(i) {
-                stack.push(i as i32);
-            } else {
-                stack.pop().unwrap();
-                if stack.is_empty() {
-                    stack.push(i as i32);
-                } else {
-                    res = std::cmp::max(res, (i as i32) - stack.last().unwrap());
-                }
-            }
-        }
-        res
-    }
-}
-```
-
-#### JavaScript
-
-```js
-/**
- * @param {string} s
- * @return {number}
- */
-var longestValidParentheses = function (s) {
+function longestValidSubstring(word: string, forbidden: string[]): number {
+    const s: Set<string> = new Set(forbidden);
+    const n = word.length;
     let ans = 0;
-    const stack = [-1];
-    for (i = 0; i < s.length; i++) {
-        if (s.charAt(i) === '(') {
-            stack.push(i);
-        } else {
-            stack.pop();
-            if (stack.length === 0) {
-                stack.push(i);
-            } else {
-                ans = Math.max(ans, i - stack[stack.length - 1]);
+    for (let i = 0, j = 0; j < n; ++j) {
+        for (let k = j; k > Math.max(j - 10, i - 1); --k) {
+            if (s.has(word.substring(k, j + 1))) {
+                i = k + 1;
+                break;
             }
         }
+        ans = Math.max(ans, j - i + 1);
     }
     return ans;
-};
-```
-
-#### PHP
-
-```php
-class Solution {
-    /**
-     * @param string $s
-     * @return integer
-     */
-
-    function longestValidParentheses($s) {
-        $stack = [];
-        $maxLength = 0;
-
-        array_push($stack, -1);
-        for ($i = 0; $i < strlen($s); $i++) {
-            if ($s[$i] === '(') {
-                array_push($stack, $i);
-            } else {
-                array_pop($stack);
-
-                if (empty($stack)) {
-                    array_push($stack, $i);
-                } else {
-                    $length = $i - end($stack);
-                    $maxLength = max($maxLength, $length);
-                }
-            }
-        }
-        return $maxLength;
-    }
 }
 ```
 
